@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt - Schrotthandel in Berlin | Schrott Handel Tariko</title>
+        <link rel="icon" type="image/x-icon" href="../assets/img/logo.webp">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-logo">
+                    <a href="/" class="logo-link">
+                        <img src="../assets/img/logo.webp" alt="Schrott Handel Tariko Logo" class="logo-img">
+                        <span class="logo-text">SCHROTT HANDEL TARIKO</span>
+                    </a>
+                </div>
+                
+                <nav class="header-nav" id="headerNav">
+                    <ul class="nav-list">
+                        <li><a href="/" class="nav-link">Startseite</a></li>
+                        <li class="nav-item-dropdown">
+                            <span class="nav-link dropdown-trigger">
+                            Leistungen
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="dropdown-arrow">
+                                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <ul class="dropdown-menu">
+                            <li><a href="/leistungen/containerdienst/">Containerdienst</a></li>
+                            <li><a href="/leistungen/metallankauf/">Ankauf von Metallen & Schrott</a></li>
+                            <li><a href="/leistungen/kabelrecycling/">Kabelrecycling</a></li>
+                            <li><a href="/leistungen/industriedemontage/">Industriedemontage</a></li>
+                            <li><a href="/leistungen/abbruch-beraeumung/">Abbruch & Beräumung</a></li>
+                            <li><a href="/leistungen/schrottabholung-vor-ort/">Schrottabholung vor Ort</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/ueber-uns/" class="nav-link">Über uns</a></li>
+                        <li><a href="/kontakt/" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="tel:+491700000000" class="header-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+                        </svg>
+                        <span>Jetzt anrufen</span>
+                    </a>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Contact Intro Section -->
+        <section class="contact-intro-section" aria-label="Contact introduction section">
+            <div class="container">
+                <div class="contact-intro-card">
+                    <h2 class="contact-intro-title">Wir unterstützen Sie bei Ihrem Schrottprojekt</h2>
+                    <p class="contact-intro-description">
+                        Nehmen Sie Kontakt mit uns auf für Schrottabholung, Containerdienst oder Abbruch- und Beräumungsarbeiten in der Region Berlin. Alle Anfragen sind unverbindlich und wir melden uns so schnell wie möglich bei Ihnen.
+                    </p>
+                    <a href="#contact-form-section" class="contact-intro-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Kontaktformular öffnen
+                    </a>
+                </div>
+            </div>
+        </section>
+
+                    <!-- Contact Section -->
+                    <section class="contact-section" aria-label="Contact section" id="contact-form-section">
+                        <div class="container">
+        
+                            <div class="head_sec">
+                                <h2 class="head_title">Kontakt aufnehmen</h2>
+                                <p class="head_text">Schreiben Sie uns eine Nachricht oder erreichen Sie uns direkt per Telefon, WhatsApp oder E-Mail.</p>
+                            </div>
+        
+                            <div class="contact-wrapper">
+                                <div class="contact-form-container" id="contact-form">
+                                    <form class="contact-form" action="#" method="POST">
+                                        <div class="form-row">
+                                            <div class="form-group">
+                                                <label for="name" class="form-label">Name <span class="required">*</span></label>
+                                                <input type="text" id="name" name="name" class="form-input" placeholder="Ihr vollständiger Name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" class="form-label">E-Mail-Adresse <span class="required">*</span></label>
+                                                <input type="email" id="email" name="email" class="form-input" placeholder="sie@example.com" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group">
+                                                <label for="phone" class="form-label">Telefonnummer</label>
+                                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="Optional, für Rückruf">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="address" class="form-label">Adresse</label>
+                                                <input type="text" id="address" name="address" class="form-input" placeholder="Straße, PLZ, Ort (optional)">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject" class="form-label">Betreff</label>
+                                            <input type="text" id="subject" name="subject" class="form-input" placeholder="z.B. Anfrage Schrottabholung, Containerdienst">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message" class="form-label">Ihre Nachricht</label>
+                                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Bitte beschreiben Sie, welche Art von Schrott Sie haben, ungefähre Mengen und gewünschte Termine."></textarea>
+                                        </div>
+                                        <button type="submit" class="form-submit-btn">
+                                            Nachricht senden
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="contact-details-container">
+                                    <h3 class="contact-details-title">Kontaktdaten</h3>
+                                    <p class="contact-details-intro">Sie sprechen lieber direkt? Rufen Sie uns an, schreiben Sie uns per WhatsApp oder senden Sie eine E-Mail.</p>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-item-header">
+                                            <div class="contact-icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+                                                </svg>
+                                            </div>
+                                            <div class="contact-item-info">
+                                                <p class="contact-item-label">Telefon (Hauptnummer)</p>
+                                                <p class="contact-item-value">+49 170 0000000</p>
+                                            </div>
+                                        </div>
+                                        <a href="tel:+491700000000" class="contact-action-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+                                            </svg>
+                                            Anrufen
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="contact-divider"></div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-item-header">
+                                            <div class="contact-icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M17.472 13.77l-3.22-1.38a1.43 1.43 0 0 0-1.66.34l-.7.86a11.06 11.06 0 0 1-4.8-4.81l.86-.69a1.44 1.44 0 0 0 .34-1.66l-1.38-3.22A1.43 1.43 0 0 0 5.03 3H3.24A1.24 1.24 0 0 0 2 4.24C2 12.08 7.92 18 15.75 18a1.24 1.24 0 0 0 1.25-1.25v-1.78c0-.59-.35-1.13-.89-1.22z" fill="currentColor"/>
+                                                </svg>
+                                            </div>
+                                            <div class="contact-item-info">
+                                                <p class="contact-item-label">WhatsApp</p>
+                                                <p class="contact-item-value">+49 160 0000000</p>
+                                            </div>
+                                        </div>
+                                        <a href="https://wa.me/491600000000" target="_blank" class="contact-action-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M17.472 13.77l-3.22-1.38a1.43 1.43 0 0 0-1.66.34l-.7.86a11.06 11.06 0 0 1-4.8-4.81l.86-.69a1.44 1.44 0 0 0 .34-1.66l-1.38-3.22A1.43 1.43 0 0 0 5.03 3H3.24A1.24 1.24 0 0 0 2 4.24C2 12.08 7.92 18 15.75 18a1.24 1.24 0 0 0 1.25-1.25v-1.78c0-.59-.35-1.13-.89-1.22z" fill="currentColor"/>
+                                            </svg>
+                                            WhatsApp-Chat starten
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="contact-divider"></div>
+                                    
+                                    <div class="contact-item">
+                                        <div class="contact-item-header">
+                                            <div class="contact-icon">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                                                </svg>
+                                            </div>
+                                            <div class="contact-item-info">
+                                                <p class="contact-item-label">E-Mail</p>
+                                                <p class="contact-item-value">info@schrott-tariko.de</p>
+                                            </div>
+                                        </div>
+                                        <a href="mailto:info@schrott-tariko.de" class="contact-action-btn">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                                            </svg>
+                                            E-Mail senden
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+        <!-- What Can We Help Section -->
+        <section class="what-can-help-section" aria-label="What can we help you with section">
+            <div class="container">
+                <div class="head_sec">
+                    <h2 class="head_title">Wobei können wir Ihnen helfen?</h2>
+                    <p class="head_text">
+                        Hier sehen Sie einige typische Gründe, warum Kunden uns kontaktieren. Wenn Ihre Situation anders ist, beschreiben Sie sie einfach in eigenen Worten.
+                    </p>
+                </div>
+                <div class="help-cards-grid">
+                    <div class="help-card">
+                        <div class="help-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 8H17V4H3C1.9 4 1 4.9 1 6V17H3C3 18.1 3.9 19 5 19S7 18.1 7 17H17C17 18.1 17.9 19 19 19S21 18.1 21 17H23V12L20 8ZM19.5 9.5L21.46 12H17V9.5H19.5ZM5 17C4.45 17 4 16.55 4 16S4.45 15 5 15S6 15.45 6 16S5.55 17 5 17ZM19 17C18.45 17 18 16.55 18 16S18.45 15 19 15S20 15.45 20 16S19.55 17 19 17Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="help-card-title">Schrottabholung</h3>
+                        <p class="help-card-description">Organisieren Sie die Abholung von Schrott bei Ihnen zu Hause, auf der Baustelle oder in Ihrem Betrieb.</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6H17V4C17 2.9 16.1 2 15 2H9C7.9 2 7 2.9 7 4V6H4C2.9 6 2 6.9 2 8V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V8C22 6.9 21.1 6 20 6ZM9 4H15V6H9V4ZM20 19H4V8H20V19Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="help-card-title">Container für Ihr Projekt</h3>
+                        <p class="help-card-description">Fragen Sie nach einem Container in der passenden Größe für Ihre Sanierungs- oder Abbrucharbeiten.</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="help-card-title">Abbruch & Beräumung</h3>
+                        <p class="help-card-description">Planen Sie selektive Abbrucharbeiten und die Beräumung von Hallen, Lagerflächen oder Industriearealen.</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="help-card-title">Allgemeine Fragen</h3>
+                        <p class="help-card-description">Stellen Sie uns Fragen zu Preisen, angenommenen Materialien oder zum genauen Ablauf.</p>
+                    </div>
+                </div>
+                <p class="help-footer-text">
+                    Egal, für welche Option Sie sich entscheiden – schicken Sie uns einfach eine kurze Nachricht, wir kümmern uns um den Rest.
+                </p>
+                <div class="help-section-btn-wrapper">
+                    <a href="#contact-form-section" class="help-section-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                        </svg>
+                        Nachricht senden
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+           <!-- Footer -->
+           <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section footer-about">
+                        <h3 class="footer-title">SCHROTT HANDEL TARIKO</h3>
+                        <p class="footer-description">
+                            Professional scrap metal trading and disposal service in Berlin. We buy and collect all types of scrap metal at fair daily prices.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="currentColor"/>
+                                    <rect x="2" y="9" width="4" height="12" fill="currentColor"/>
+                                    <circle cx="4" cy="4" r="2" fill="currentColor"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section footer-links">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/ueber-uns/">Über uns</a></li>
+                            <li><a href="/leistungen/">Leistungen</a></li>
+                            <li><a href="/kontakt/">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section footer-services">
+                        <h4 class="footer-heading">Unsere Leistungen</h4>
+                        <ul class="footer-list">
+                            <li><a href="/leistungen/containerdienst/">Containerdienst</a></li>
+                            <li><a href="/leistungen/metallankauf/">Metallankauf</a></li>
+                            <li><a href="/leistungen/kabelrecycling/">Kabelrecycling</a></li>
+                            <li><a href="/leistungen/industriedemontage/">Industriedemontage</a></li>
+                            <li><a href="/leistungen/abbruch-beraeumung/">Abbruch & Beräumung</a></li>
+                            <li><a href="/leistungen/schrottabholung-vor-ort/">Schrottabholung vor Ort</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section footer-contact">
+                        <h4 class="footer-heading">Kontaktinformationen</h4>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+                                </svg>
+                                <a href="tel:+491700000000">+49 170 0000000</a>
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                                </svg>
+                                <a href="mailto:info@schrott-tariko.de">info@schrott-tariko.de</a>
+                            </li>
+                            <li>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+                                </svg>
+                                <span>Berlin, Germany</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <p class="footer-copyright">
+                            &copy; 2024 Schrott Handel Tariko. All rights reserved.
+                        </p>
+                        <div class="footer-legal">
+                            <a href="/privacy/">Privacy Policy</a>
+                            <span class="footer-separator">|</span>
+                            <a href="/terms/">Terms of Service</a>
+                            <span class="footer-separator">|</span>
+                            <a href="/imprint/">Imprint</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
